@@ -1,0 +1,74 @@
+.about-container {
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+.about-hero {
+  background: linear-gradient(to right, #0d47a1, #1976d2);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  background-color: #f4f8ff;
+}
+
+.about-card {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+}
+
+.about-card h2 {
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+
+/* SOCIAL SECTION */
+.social-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e3f2fd;
+}
+
+.social-section h2 {
+  margin-bottom: 20px;
+  color: #0d47a1;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.social-link:hover {
+  background-color: #0d47a1;
+}
