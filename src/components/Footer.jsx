@@ -35,9 +35,9 @@ export default function Footer(){
             <div className="footer-list">
                 <h3>Our Information</h3>
                 <ul>
-                    <li><Link to="/">Privacy</Link></li>
-                    <li><Link to="/">Terms & Conditions</Link></li>
-                    <li><Link to="/">Return Policy</Link></li>
+                    <li><Link to="/privacy">Privacy policy</Link></li>
+                    <li><Link to="/terms">Terms & Conditions</Link></li>
+                    <li><Link to="/return">Return Policy</Link></li>
                 </ul>
             </div>
             <div className="footer-list">
@@ -56,3 +56,4 @@ export default function Footer(){
         </footer>
     )
 }
+    
